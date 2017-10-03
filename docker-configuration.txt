@@ -1,0 +1,12 @@
+- download docker ce for windows 
+
+- docker win10 hyper-v
+
+Hyper-V not running even though enabled within features
+
+https://www.tenforums.com/tutorials/2087-hyper-v-virtualization-setup-use-windows-10-a.html
+If you get an error message about Hypervisor not running, open an elevated Command Prompt by pressing WIN + X and selecting Command Prompt (Admin) and give the following command:
+
+bcdedit /set hypervisorlaunchtype auto
+
+Reboot the host PC. Hyper-V should now be able to run.
